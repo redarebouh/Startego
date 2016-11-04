@@ -7,18 +7,30 @@ public class Piece {
 
     private int identifiant;
     private int puissance;
+    private TypePiece typePiece;
 
-    public enum TypeMobilite {
-        MOBILE,  NONMOBILE;
-    }
-
-    private TypeMobilite unType;
-
-    public Piece(int unIdentifiant,int unePuissance, TypeMobilite unType){
+    public Piece(int unIdentifiant,int unePuissance){
         this.identifiant = unIdentifiant;
         this.puissance = unePuissance;
 
-        this.unType = unType;
+        if(estMobile(unePuissance))
+            this.typePiece = TypePiece.MOBILE;
+        else
+            this.typePiece = TypePiece.NONMOBILE;
+    }
 
+    public boolean estMobile(int unePuissance)
+    {
+        boolean vReturn;
+
+        /* TODO : Rejouter une exception */
+        if(unePuissance == 0 || unePuissance == 11){
+            vReturn = false;
+        }
+        else{
+            vReturn = true;
+        }
+
+        return vReturn;
     }
 }
