@@ -48,25 +48,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Piece.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Piece.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/modele/Piece.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-              <folding>
-                <element signature="e#315#316#0" expanded="true" />
-                <element signature="e#363#364#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="221">
+              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="187">
+              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+              <folding>
+                <marker date="1478272510846" expanded="true" signature="59:46658" ph="..." />
+                <marker date="1478272510846" expanded="true" signature="98:723" ph="..." />
+                <marker date="1478272510846" expanded="true" signature="770:827" ph="..." />
+                <marker date="1478272510846" expanded="true" signature="944:996" ph="..." />
+                <marker date="1478272510846" expanded="true" signature="1035:2534" ph="..." />
+                <marker date="1478272510846" expanded="true" signature="1046:2534" ph="..." />
+                <marker date="1478272510846" expanded="true" signature="1124:1561" ph="..." />
+                <marker date="1478272510846" expanded="true" signature="1199:1547" ph="..." />
+                <marker date="1478272510846" expanded="true" signature="1265:1530" ph="..." />
+                <marker date="1478272510846" expanded="true" signature="1314:1508" ph="..." />
+                <marker date="1478272510846" expanded="true" signature="1650:2461" ph="..." />
+                <marker date="1478272510846" expanded="true" signature="1736:2447" ph="..." />
+                <marker date="1478272510846" expanded="true" signature="1802:2430" ph="..." />
+                <marker date="1478272510846" expanded="true" signature="1852:2408" ph="..." />
+                <marker date="1478272510846" expanded="true" signature="2026:2387" ph="..." />
+                <marker date="1478272510846" expanded="true" signature="44034:44076" ph="..." />
+                <marker date="1478272510846" expanded="true" signature="44034:44094" ph="..." />
+                <marker date="1478272510846" expanded="true" signature="44034:44107" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -143,8 +159,8 @@
         <option value="$PROJECT_DIR$/src/main/java/modele/exceptions/ExceptionLoginDejaPris.java" />
         <option value="$PROJECT_DIR$/src/main/java/modele/GestionStrategoInterface.java" />
         <option value="$PROJECT_DIR$/src/main/java/modele/GestionStratego.java" />
-        <option value="$PROJECT_DIR$/src/main/java/modele/Piece.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/modele/Piece.java" />
       </list>
     </option>
   </component>
@@ -735,16 +751,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1478267157112</updated>
-      <workItem from="1478267161096" duration="4004000" />
+      <workItem from="1478267161096" duration="5249000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4004000" />
+    <option name="totallyTimeSpent" value="5249000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -757,7 +773,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -850,21 +866,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/modele/Piece.java">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+        <state relative-caret-position="187">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
           <folding>
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
+            <marker date="1478272510846" expanded="true" signature="59:46658" ph="..." />
+            <marker date="1478272510846" expanded="true" signature="98:723" ph="..." />
+            <marker date="1478272510846" expanded="true" signature="770:827" ph="..." />
+            <marker date="1478272510846" expanded="true" signature="944:996" ph="..." />
+            <marker date="1478272510846" expanded="true" signature="1035:2534" ph="..." />
+            <marker date="1478272510846" expanded="true" signature="1046:2534" ph="..." />
+            <marker date="1478272510846" expanded="true" signature="1124:1561" ph="..." />
+            <marker date="1478272510846" expanded="true" signature="1199:1547" ph="..." />
+            <marker date="1478272510846" expanded="true" signature="1265:1530" ph="..." />
+            <marker date="1478272510846" expanded="true" signature="1314:1508" ph="..." />
+            <marker date="1478272510846" expanded="true" signature="1650:2461" ph="..." />
+            <marker date="1478272510846" expanded="true" signature="1736:2447" ph="..." />
+            <marker date="1478272510846" expanded="true" signature="1802:2430" ph="..." />
+            <marker date="1478272510846" expanded="true" signature="1852:2408" ph="..." />
+            <marker date="1478272510846" expanded="true" signature="2026:2387" ph="..." />
+            <marker date="1478272510846" expanded="true" signature="44034:44076" ph="..." />
+            <marker date="1478272510846" expanded="true" signature="44034:44094" ph="..." />
+            <marker date="1478272510846" expanded="true" signature="44034:44107" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/modele/Piece.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="221">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
           <folding />
         </state>
       </provider>
