@@ -17,6 +17,8 @@ public class Piece {
     public Piece(int unIdentifiant,int unePuissance, TypeMobilite unType){
         this.identifiant = unIdentifiant;
         this.puissance = unePuissance;
+
         this.unType = unType;
+
     }
 }
