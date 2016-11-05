@@ -15,16 +15,15 @@ public class Plateau {
 
     private Case [][] plateauStratego;
 
-    private int taille;
-
-    private static int DEFAULTSIZE = 6;
+    private static final int TAILLE = 10;
 
 
-    public Plateau(int taille,List<Joueur> Joueurs){
 
-        this.taille = taille;
+
+    public Plateau(List<Joueur> Joueurs){
+
         this.joueurs = Joueurs;
-        plateauStratego = new Case[taille][taille];
+        plateauStratego = new Case[TAILLE][TAILLE];
     }
 
     public Case[][] getPlateauStratego(){
