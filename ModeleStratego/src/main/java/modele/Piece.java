@@ -8,10 +8,10 @@ import modele.exceptions.ExceptionPieceNonMobile;
 public class Piece {
 
     private int identifiant;
-    private int puissance;
+    private Puissance puissance;
     private TypePiece typePiece;
 
-    public Piece(int unIdentifiant,int unePuissance) throws ExceptionPieceNonMobile {
+    public Piece(int unIdentifiant,Puissance unePuissance) throws ExceptionPieceNonMobile {
         this.identifiant = unIdentifiant;
         this.puissance = unePuissance;
 
@@ -21,12 +21,12 @@ public class Piece {
             this.typePiece = TypePiece.NONMOBILE;
     }
 
-    public boolean estMobile(int unePuissance) throws ExceptionPieceNonMobile
+    public boolean estMobile(Puissance unePuissance) throws ExceptionPieceNonMobile
     {
         boolean vReturn;
 
         /* TODO : Rejouter une exception */
-        if(unePuissance == 0 || unePuissance == 11){
+        if(unePuissance.toInt() == 0 || unePuissance.toInt() == 11){
             vReturn = false;
             throw new ExceptionPieceNonMobile();
         }
