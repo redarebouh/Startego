@@ -7,13 +7,21 @@ public class Case {
     private int x;
     private int y;
     private boolean caseAccessible;
-
+    private Piece unePiece;
 
     /*constructeur*/
+    public Case(int x, int y, boolean caseAccessible, Piece unePiece) {
+        this.x = x;
+        this.y = y;
+        this.caseAccessible = caseAccessible;
+        this.unePiece = unePiece;
+    }
+
     public Case(int x, int y, boolean caseAccessible) {
         this.x = x;
         this.y = y;
         this.caseAccessible = caseAccessible;
+        this.unePiece = null;
     }
 
     /*getters&setters*/
@@ -43,7 +51,7 @@ public class Case {
 
     /*méthode*/
     public boolean estOccupe(int x, int y){
-        if()
+        if(this.unePiece != null)
             return true;
         else
             return false;
