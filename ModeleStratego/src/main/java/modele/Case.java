@@ -6,7 +6,6 @@ package modele;
 public class Case {
     private int x;
     private int y;
-    private Piece piece;
     private boolean caseAccessible;
     private Piece unePiece;
 
