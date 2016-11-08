@@ -8,18 +8,17 @@ import modele.exceptions.ExceptionPieceNonMobile;
 public class Piece {
 
     private int identifiant;
-    private Puissance puissance;
     private TypePiece typePiece;
 
-    public Piece(int unIdentifiant,Puissance unePuissance) throws ExceptionPieceNonMobile {
+    public Piece(int unIdentifiant) throws ExceptionPieceNonMobile {
         this.identifiant = unIdentifiant;
-        this.puissance = unePuissance;
 
         if(estMobile(unePuissance))
             this.typePiece = TypePiece.MOBILE;
         else
             this.typePiece = TypePiece.NONMOBILE;
     }
+
 
     public boolean estMobile(Puissance unePuissance) throws ExceptionPieceNonMobile
     {
@@ -36,6 +35,8 @@ public class Piece {
 
         return vReturn;
     }
+
+
     public TypePiece getTypePiece(){
         return typePiece;
     }
