@@ -3,6 +3,7 @@ package modele;
 import modele.exceptions.ExceptionLoginDejaPris;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -10,10 +11,10 @@ import java.util.Map;
  */
 public class GestionStratego implements GestionStrategoInterface {
 
-    private Map<Joueur,Plateau> logins;
+    private Map<Joueur,Partie> logins;
 
     public GestionStratego() {
-        this.logins = new HashMap<Joueur, Plateau>();
+        this.logins = new HashMap<Joueur, Partie>();
     }
 
     @Override
