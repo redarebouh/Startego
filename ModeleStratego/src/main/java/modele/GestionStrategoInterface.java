@@ -24,6 +24,6 @@ public interface GestionStrategoInterface {
      * Permet d'obtenir le plateau du joueur pseudo
      * @return
      */
-    Plateau getPlateau(String pseudo);
+    Partie getPartie(String pseudo);
 
 }

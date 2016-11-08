@@ -3,6 +3,7 @@ package modele;
 import modele.exceptions.ExceptionLoginDejaPris;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -32,7 +33,7 @@ public class GestionStratego implements GestionStrategoInterface {
 
     @Override
     public Partie getPartie(String pseudo) {
-        this.logins.get(pseudo);
+        return this.logins.get(pseudo);
     }
 
 }

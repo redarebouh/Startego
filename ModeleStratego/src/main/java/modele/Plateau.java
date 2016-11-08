@@ -7,7 +7,8 @@ import java.util.List;
  * Created by Remy on 04/11/2016.
  */
 public class Plateau {
-    private Partie partie ;
+
+    private Partie partie;
 
     private Case [][] plateauStratego;
 
