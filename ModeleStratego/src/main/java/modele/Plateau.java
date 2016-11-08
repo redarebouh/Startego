@@ -23,7 +23,15 @@ public class Plateau {
         return this.plateauStratego;
     }
 
-    public void getCaseParCoord(int x, int y,Piece unePiece){
+    public Partie getPartie() {
+        return partie;
+    }
+
+    public void setPartie(Partie partie) {
+        this.partie = partie;
+    }
+
+    public void getCaseParCoord(int x, int y, Piece unePiece){
         if (this.plateauStratego[x][y].estOccupe()) {
 
         }

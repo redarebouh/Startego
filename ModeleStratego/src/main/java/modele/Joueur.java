@@ -13,7 +13,7 @@ public class Joueur {
 
         this.pseudo = pseudo;
         this.listePieces = new Piece[40];
-        this.partie = Partie unePartie;
+        this.partie = unePartie;
     }
 
     public String getPseudo() {
@@ -22,6 +22,14 @@ public class Joueur {
 
     public void setPseudo(String pseudo) {
         this.pseudo = pseudo;
+    }
+
+    public Partie getPartie() {
+        return partie;
+    }
+
+    public void setPartie(Partie partie) {
+        this.partie = partie;
     }
 
     public Piece[] getListePieces() {

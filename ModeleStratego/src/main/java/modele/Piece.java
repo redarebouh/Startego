@@ -47,7 +47,7 @@ public class Piece {
     }
 
     public void deplacement(int x, int y){
-        this.joueur.partie.plateau.getCaseParCoord(x,y,this);
+        this.joueur.getPartie().getPlateau().getCaseParCoord(x,y,this);
     }
 
 }
