@@ -1,7 +1,5 @@
 package modele;
 
-import modele.exceptions.ExceptionPieceNonMobile;
-
 /**
  * Created by Remy on 04/11/2016.
  */
@@ -10,37 +8,62 @@ public class Piece {
     private int identifiant;
     private TypePiece typePiece;
 
-    public Piece(int unIdentifiant) throws ExceptionPieceNonMobile {
+    public Piece(int unIdentifiant, int unePuissance){
         this.identifiant = unIdentifiant;
-
-        if(estMobile(unePuissance))
-            this.typePiece = TypePiece.MOBILE;
-        else
-            this.typePiece = TypePiece.NONMOBILE;
+        this.typePiece = initTypePieceParPuissance(unePuissance);
     }
 
-
-    public boolean estMobile(Puissance unePuissance) throws ExceptionPieceNonMobile
-    {
-        boolean vReturn;
-
-        /* TODO : Rejouter une exception */
-        if(unePuissance.toInt() == 0 || unePuissance.toInt() == 11){
-            vReturn = false;
-            throw new ExceptionPieceNonMobile();
-        }
-        else{
-            vReturn = true;
-        }
-
-        return vReturn;
-    }
-
-
-    public TypePiece getTypePiece(){
-        return typePiece;
-    }
     public int getIdentifiant(){
         return identifiant;
     }
+    public TypePiece getTypePiece(){
+        return typePiece;
+    }
+
+    public TypePiece initTypePieceParPuissance(int unePuissance) {
+        TypePiece choix = null;
+
+        switch(unePuissance)
+        {
+            case 10:
+                choix = TypePiece.MARECHAL;
+                break;
+            case 9:
+                choix = TypePiece.GENERAL;
+                break;
+            case 8:
+                choix = TypePiece.COLONELS;
+                break;
+            case 7:
+                choix = TypePiece.COMMANDANTS;
+                break;
+            case 6:
+                choix = TypePiece.CAPITAINES;
+                break;
+            case 5:
+                choix = TypePiece.LIEUTENANTS;
+                break;
+            case 4:
+                choix = TypePiece.SERGENTS;
+                break;
+            case 3:
+                choix = TypePiece.DEMINEURS;
+                break;
+            case 2:
+                choix = TypePiece.ECLAIREURS;
+                break;
+            case 1:
+                choix = TypePiece.ESPION;
+                break;
+            case 0:
+                choix = TypePiece.DRAPEAU;
+                break;
+            case -1:
+                choix = TypePiece.BOMBE;
+                break;
+        }
+
+        return choix;
+    }
+
 }

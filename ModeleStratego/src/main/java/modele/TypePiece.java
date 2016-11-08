@@ -5,18 +5,18 @@ package modele;
  */
 public enum TypePiece {
 
-    Maréchal("Maréchal",10,true),
-    Général("Général",9,true),
-    Colonels("Colonels",8,true),
-    Commandants("Commandants",7,true),
-    Capitaines("Capitaines",6,true),
-    Lieutenants("Lieutenants",5,true),
-    Sergents("Sergents",4,true),
-    Démineurs("Démineurs",3,true),
-    Éclaireurs("Éclaireurs",2,true),
-    Espion("Espion",1,true),
-    Drapeau("Drapeau",0,false),
-    Bombe("Bombe",-1,false);
+    MARECHAL("Maréchal",10,true),
+    GENERAL("Général",9,true),
+    COLONELS("Colonels",8,true),
+    COMMANDANTS("Commandants",7,true),
+    CAPITAINES("Capitaines",6,true),
+    LIEUTENANTS("Lieutenants",5,true),
+    SERGENTS("Sergents",4,true),
+    DEMINEURS("Démineurs",3,true),
+    ECLAIREURS("Éclaireurs",2,true),
+    ESPION("Espion",1,true),
+    DRAPEAU("Drapeau",0,false),
+    BOMBE("Bombe",-1,false);
 
 
     private String name = "";
