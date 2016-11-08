@@ -19,4 +19,11 @@ public interface GestionStrategoInterface {
      * @param unJoueur : Joueur souhaitant une déconnexion
      */
     void deconnexion(Joueur unJoueur);
+
+    /**
+     * Permet d'obtenir le plateau du joueur pseudo
+     * @return
+     */
+    Partie getPartie(String pseudo);
+
 }

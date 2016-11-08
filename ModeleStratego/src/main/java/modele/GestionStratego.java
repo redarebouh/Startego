@@ -30,4 +30,10 @@ public class GestionStratego implements GestionStrategoInterface {
     public void deconnexion(Joueur unJoueur) {
         this.logins.remove(unJoueur);
     }
+
+    @Override
+    public Partie getPartie(String pseudo) {
+        return this.logins.get(pseudo);
+    }
+
 }

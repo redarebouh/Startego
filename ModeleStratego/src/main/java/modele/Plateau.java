@@ -37,4 +37,14 @@ public class Plateau {
     public Case[][] getPlateauStratego(){
         return this.plateauStratego;
     }
+
+    public void getCaseParCoord(int x, int y,Piece unePiece){
+        if (this.plateauStratego[x][y].estOccupe()) {
+
+        }
+        else {
+            this.plateauStratego[x][y].setUnePiece(unePiece);
+        }
+
+    }
 }
