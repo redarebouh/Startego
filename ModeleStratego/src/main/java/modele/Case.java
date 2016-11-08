@@ -49,12 +49,22 @@ public class Case {
         this.y = y;
     }
 
+    public Piece getUnePiece() {
+        return unePiece;
+    }
+
+    public void setUnePiece(Piece unePiece) {
+        this.unePiece = unePiece;
+    }
+
     /*méthode*/
-    public boolean estOccupe(int x, int y){
+    public boolean estOccupe(){
         if(this.unePiece != null)
             return true;
         else
             return false;
     }
+
+
 }
 

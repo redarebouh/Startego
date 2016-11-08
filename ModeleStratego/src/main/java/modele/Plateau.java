@@ -54,5 +54,13 @@ public class Plateau {
         this.joueurs = joueurs;
     }
 
+    public void getCaseParCoord(int x, int y,Piece unePiece){
+        if (this.plateauStratego[x][y].estOccupe()) {
 
+        }
+        else {
+            this.plateauStratego[x][y].setUnePiece(unePiece);
+        }
+
+    }
 }

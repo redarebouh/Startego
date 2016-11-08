@@ -29,4 +29,5 @@ public class GestionStratego implements GestionStrategoInterface {
     public void deconnexion(Joueur unJoueur) {
         this.logins.remove(unJoueur);
     }
+
 }

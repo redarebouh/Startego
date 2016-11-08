@@ -19,4 +19,5 @@ public interface GestionStrategoInterface {
      * @param unJoueur : Joueur souhaitant une déconnexion
      */
     void deconnexion(Joueur unJoueur);
+
 }
