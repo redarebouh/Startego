@@ -20,4 +20,10 @@ public interface GestionStrategoInterface {
      */
     void deconnexion(Joueur unJoueur);
 
+    /**
+     * Permet d'obtenir le plateau du joueur pseudo
+     * @return
+     */
+    Plateau getPlateau(String pseudo);
+
 }

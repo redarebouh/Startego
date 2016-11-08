@@ -10,10 +10,10 @@ import java.util.Map;
  */
 public class GestionStratego implements GestionStrategoInterface {
 
-    private Map<Joueur,Plateau> logins;
+    private Map<Joueur,Partie> logins;
 
     public GestionStratego() {
-        this.logins = new HashMap<Joueur, Plateau>();
+        this.logins = new HashMap<Joueur, Partie>();
     }
 
     @Override
@@ -28,6 +28,11 @@ public class GestionStratego implements GestionStrategoInterface {
     @Override
     public void deconnexion(Joueur unJoueur) {
         this.logins.remove(unJoueur);
+    }
+
+    @Override
+    public Partie getPartie(String pseudo) {
+        this.logins.get(pseudo);
     }
 
 }
