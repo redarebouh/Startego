@@ -1,7 +1,7 @@
 package modele;
 
 /**
- * Created by Remy on 04/11/2016.
+ * Created by Axel on 04/11/2016.
  */
 public class Case {
     private int x;
